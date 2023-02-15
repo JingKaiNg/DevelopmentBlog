@@ -7,6 +7,9 @@
     <title>Development Blog</title>
 </head>
 <body>
+
+
+    <h1>Ng Jing Kai IT04</h1>
     <h1>ID Development Blog</h1>
     <h1>Week 1:</h1>
     <ol>
@@ -18,7 +21,7 @@
     <br>
     <li> HTML: Defines the content (main codes) <br>CSS: Assigns the styles (make the website looks better)</li>
     <br>
-    <li> HTML has a structure and we name the file as index.html </li>
+    <li> HTML has a structure (just click "!" and press "TAB" on the keyboard) and we name the file as index.html </li>
     <br>
     <li> HTML has tags which includes:
         <br> p: paragraph element
@@ -43,14 +46,14 @@
 
             <br> < a> < /a> stands for anchor: To anchor or hyperlink an element 
             <br> For example: < a href="https://interactivedev.com" title="JumpStart to 
-            Interactive Development">Interactive Development</a><br>
+            Interactive Development">Interactive Development< /a><br>
             <br> < div> </ div>: a container unit which divides the HTML documents into sections<br>
             <br> < span> </ span>: an inline unit usually used for small chunks of HTML.
             
         </ol>
  
-        <br><li> Iframe tag ( < iframe> < /iframe> ) [usually for media]
-    <br> The HTML < iframe> tag specifies an inline frame.
+        <br><li> Iframe tag ( < iframe> < /iframe> ) [usually for media] <br>
+    <br> The HTML < iframe> tag specifies an inline frame. <br>
     <br> An inline frame is used to embed another document within the current 
     HTML document.
     <br> < iframe src="" width="" height="">< /iframe>
@@ -112,7 +115,7 @@
         <li>< section>< /section> tag</li>
         <h3>Grouping selectors in CSS</h3>
 
-        <li>For example: 
+        <li>For example: <br>
         <br> "h1 {...}"
         <br> applies to all h1 elements
         <br>
@@ -130,7 +133,7 @@
         </li><br>
 
         <li>Specificity in CSS: <br><ol>
-           <br> <li>Universal</li><br><li>type (p)</li><br><li>class (.example>)</li><br><li>id (#example)</li><br></ol></li>
+           <br> <li>Universal</li><br><li>type (p)</li><br><li>class (.example)</li><br><li>id (#example)</li><br></ol></li>
         
         <li>I have also learnt more CSS styles such as using background pictures, border, etc.</li>
         
@@ -160,19 +163,19 @@
             <ul> Example 1:</ul><br>
             <ul>When the browser viewport is at least 576px,<br>
                 "@media screen and (min-width: 576px){}" <br>
-            </ul>
+            </ul><br>
 
             <h3>MORE EXAMPLES which I have learnt</h3>
 
             <ul>Example 2:</ul><br>
             <ul>Medium devices (tablets, 768px and up),<br>
                 "@media (min-width: 768px){}" <br>
-            </ul>
+            </ul><br>
 
             <ul>Example 3:</ul><br>
             <ul>Large devices (desktops, 992px and up)<br>
                 "@media (min-width: 992px){}" <br>
-            </ul>
+            </ul><br>
 
             <ul>Example 4:</ul><br>
             <ul>Extra large devices (large desktops, 1200px and up)<br>
@@ -216,30 +219,450 @@
     <h3>GITHUB</h3>
     <p>I learnt how to use GitHub this week, how to create an account, creating of a repository, how to collaborate with others via GitHub, how to push/pull and also see the advantages of GitHub. </p>
 
-   <!-- <h1>Week 5</h1> -->
+   <h1>Week 5</h1>
+   <p>During this whitespace week, we were required to go through a LinkedIn Learning Javascript lesson walkthrough <br> After finishing lesson 1 to 5, these are some of the stuffs I have learnt:</p>
+
+    <ol>
+        <li>Linting and formatting <br> <ul>•	Prettier helps automatically clean up our formatting</ul><br><ul>•	ESLint helps automatically  detect coding errors and can do basic clean-up automatically</ul><br></li><br>
+        <li>JavaScript language basics<br> i.e. Creating a const<br><br>
+            const backpack = {<br>
+               <ul>name: "Everyday Backpack",</ul>
+               <ul>volume: 30,</ul>
+               <ul>color: "grey",</ul>
+               <ul>pocketNum: 15,</ul>
+               <ul>strapLength: {</ul>
+                <ul><ul>left: 26,</ul></ul>
+                <ul><ul>right: 26,</ul></ul>
+                <ul>},</ul><br>  
+        </li><br>
+        <li>JavaScript in an HTML document<br>i.e.<br>
+            < script><br>
+                const allCode = document.querySelectorAll("code");<br><br>
+          
+                for (let item of allCode) {<br>
+                  item.innerHTML = `&lt;${item.innerHTML}&gt;`;<br>
+                }<br>
+              < /script><br>
+
+        </li><br>
+
+        <li>Object properties<br><ul>•	Defined using a colon separated name value pair, where the name can be any string and is placed on the left.</ul><br><ul>•	The value can be any string inside quotation marks or an integer or a floating-point number or a Bool value as a true or false or an array.</ul><br><ul>•	However, a property name can only contain letters, digits, dollar signs and underscores.</ul><br></li><br>
+
+        <li> Inline style <ul>•	If an element has inline style, it means that there are CSS declarations in the element itself.</ul><br><ul>•	Eg.    document.querySelector(“.site-title”).style.color “black”</ul><br></li><br>
+    </ol>
+
+    <h1>Week 6</h1>
+    <ol>
+        <li><b>Statements:</b> console.log('Hello World!')</li><br>
+        <li><b>3 Data Types:</b><ul>• Numbers: 0.54 (no quotes)</ul><br><ul>•	Strings: ‘Hi Jing Kai!’ (enclosed in quotes)</ul><br><ul>•	Boolean: true or false</ul><br><ul>For eg. let myName = ‘Jing Kai’ (string)</ul><br></li><br>
+        <li><b>Template Literals:</b><ul>'string text'</ul><br><ul>'string text line 1 string text line 2'</ul><br><ul>'string text ${expression} string text'</ul><br></li><br>
+        <li><b>Comparison Operators</b><ul>•	=== (strict equal to) <br> For eg. ‘9' === 9 returns false as they are not the same data type or value. <br> '9' === '9' returns true as they are the same data type and value. </ul><br><ul>•	!== (strict not equal to)
+            <br>For eg. ‘9’ !== ‘9’ returns false as they are the same data type and value
+            </ul><br><ul>•	== (is equal to)<br>
+                5 == '5' returns true as they have the same value even though their data types are different
+                </ul><br><ul>•	!= (is not equal)</ul><br><ul>•	> (greater than)</ul><br><ul>•	< (lesser than)</ul><br><ul>• >= (greater than or equal to)</ul><br><ul>• <= (Lesser than or equal to)</ul><br></li><br>
+                
+        <li><b>Logical Operators:</b><ul>•	&& (logical and) -> test more than one condition. <br>
+            true && true returns true <br>
+            true && false returns false<br>
+            false && true returns false<br>
+            false && false returns false<br>
+            </ul><br> <ul>•	|| (logical or) -> test at least one condition <br>i.e  ((2 < 5) || (3 >= 2)) will return true</ul><br><ul>! (not)</ul><br>
+        </li><br>
+
+        <h3>LOOPS</h3>
+
+        <li><b>FOR loops</b>
+            <ul>eg. •	for (initialization;condition;increment){<br>
+                console.log("Practice:" + increment); <br>}
+            </ul><br>
+            <ul>•	Initialization (acts as a counter): let i = 0;</ul><br>
+            <ul>•	Condition (loop continues to run until the counter reaches a specific number):  i<10;</ul><br>
+            <ul>•	Increment (Every time the loop has run the statements in the curly braces, it adds one to the counter): i++</ul><br>
+            <p>Hence, the code would look like this:</p><br>
+            for (let i = 0; i < 10; i++){<br>
+                console.log("Practice:" + i);<br>
+                }<br>  
+        </li><br>
+
+        <li><b>WHILE loops</b>(The while loop repeats as long as the condition is true.)
+            <br> let i = 0; <br>
+            while (i < 10) { <br>
+                console.log(“Practice:” + i); i++;<br>
+            }<br>
+        </li><br>
+
+        <li><b>Array Indexing</b><br><b>Common methods & properties</b><br>
+            pop(): Removes the last element of an array, and returns that element <br>
+            push():Adds new elements to the end of an array, and returns the new length<br>
+            shift():Removes the first element of an array, and returns that element<br>
+            unshift():Adds new elements to the beginning of an array, and returns the new length<br>
+            sort(): Sorts the elements of an array<br>
+            indexOf(): Search the array for an element and returns its position<br>
+            Length: Sets or returns the number of elements in an array<br>
+        </li><br>
+
+        <li><b>Defining an array:</b><br>
+            i.e let list = ["First", "Second", "Third", "Fourth"]; <br>
+            or <br>
+            let list=[];       (declare an array called list) <br>
+            list[0] = "First"; (insert a variable into an array by specifying which index it goes into) <br>
+            list[1] = "Second";<br>
+        </li><br>
+
+        <li><b>Function:</b><br>Functions let you group a series of statements
+        together to perform a specific task.
+        </li><br>
+
+        <li>Declaring a function example: <br> 
+            function sayHello() { <br>
+                document.write('Hello'); <br>
+                } <br>
+                sayHello();<br>
+                
+        </li><br>
+
+        <li><b>OOP (Object Oriented Programming)</b><br><br><b>LITERAL OBJECTS</b><br><br>
+            let hotel = { <br>
+                name: 'Raffles Hotel',<br>
+                rooms: 100,<br>
+                booked: 24,<br>
+                gym: true,<br>
+                roomTypes: ['twin','suite','delux'],   (properties)<br><br>
+             
+             
+                checkAvailability: function() {<br>
+                     return this.rooms – this.booked;  (method)<br>
+                }<br>
+             };<br>
+             
+        </li><br>
+
+        <li><b>FUNCTION BASED OBJECTS</b><br>
+            function Hotel(name, rooms, booked){ <br>
+                this.name = name;<br>
+                this.rooms = rooms;<br>
+                this.booked = booked;<br>
+                this.checkAvailability = function() {<br>
+                       return this.rooms – this.booked;<br>
+                 };<br>
+            }<br>
+        </li><br>
+
+        <li><b>VAR</b>(variable) <br> i.e. <br><br>var value; <br> if... <br>else...</li><br>
+        <li><b>LET</b><br>i.e. <br><br>let course = 'IT'</li><br>
+        <p>Var vs Let <br> Var allows us to re-declare a variable <br>
+            Let does not allow us to re-declare a variable
+        </p><br>
+
+        <li><b>DOM</b>
+            <ol><li>
+                <b>Accessing Elements</b><br><br>
+                getElementsByClassName('class');<br>
+                Selects one or more elements given the value of their
+                class attribute<br><br>
+
+                getElementsByTagName('tagName');<br>
+                Selects all elements on the page with the specified tag
+                name<br><br>
+
+                querySelectorAll('css selector');<br>
+                Uses CSS selector syntax to select one or more elements
+                and returns all that matches<br><br>
+
+            </li></ol><br>
+        </li><br>
+    
+    </ol>
+
+    <h1>Week 7</h1>
+
+    <ol>
+        <li><b>DOM</b><br>
+            •document.getElementById('one');<br><br>
+            • document refers to the document object.
+            I would always have to access individual
+            elements via the document object.<br><br>
+
+            •The getElementById() method
+            indicates you want to search an
+            element based on the id attribute.<br><br>
+
+            •innerHTML property allows retrieval of conetent of an element or modification of new content.<br><br>
+
+            •< element>.className; <br>
+            The className property allows us to set or get the class attribute of the node.<br>
+        </li><br>
+
+        <li><b>Forms & Validation:</b><br>
+            <b>Textboxes:</b>< input type="text" name="txtUsername" id="txtUsername"><br>
+            <b>Dropdown menu:</b><br>
+            < select name="locations" id="locations"><br>
+            < option value="north-yishun">Yishun< /option><br>
+            < option value="east-changi">Changi< /option><br>
+            < option value="west-clementi">Clementi< /option><br>
+            < /select><br></li><br>
+
+        <li><b>Buttons:</b><br>< button type="submit">Submit< /button><br>
+        </li><br>
+
+        <li><b>Validating Forms:</b><br><br>
+            Example - KeyUp<br><br>
+            < element>.addEventListener('keyup',function(e) {<br>
+            ...
+            },false)<br><br>
+
+            Simple summarized steps on how to validate:<br>
+
+            <ul>Add event handler to the keyUp event</ul><br>
+            <ul> Add event handler to the blur event</ul><br>
+            <ul>Add event handler to the submit...</ul><br>
+        </li><br>
+                
+        <li><b>Json Local Storage</b><br><b>Accessing the storage API:</b><br>
+            •localStorage.setItem(key, value) <br>
+            •sessionStorage.setItem(key, value)<br>
+            •localStorage.getItem(key)<br>
+            •sessionStorage.getItem(key)<br><br>
+
+            Setting an item using the setItem before getting it via the getItem.<br>
+
+        </li><br>
+       
+        <li><b>JavaScript has a JSON object with two important methods:
+        </b>
+        <ol>
+            <li>Convert a JavaScript object to a string:
+                JSON.stringify();
+            </li><br>
+            <li>Convert a string to a JavaScript object:
+                JSON.parse();
+            </li><br>
+        </ol>
+    
+        </li><br>
+
+        <li><b>Clearing Storage</b><br>
+            •localStorage.clear();<br>
+            •localStorage.removeItem(<item key>);<br>
+
+        </li><br>
+    </ol>
+
+    <h1>Week 8</h1>
+    <h3>jQuery</h3>
+    <h4>Normal JS:</h4>
+    document.querySelectorAll('li.hot');
+    <h4>Using jQuery</h4>
+    $('li.hot'); <br>
+
+    <p><b>So why jQuery?</b><br><br>
+        With jQuery, I can <br>
+        ✔ Select or find elements<br>
+        ✔ Update their content / size / visibility<br>
+        ✔ Simplify event handling<br>
+    </p><br>
+
+    <ol>
+        <li>
+            <b>
+                Selecting by HTML tags
+            </b> <br>
+            $("div") – selects all <div> elements<br>
+            $("li") – selects all <li> elements<br>
+            $("p") – selects all <p> elements<br> 
+        </li><br>
+
+        <li>
+            <b>
+                Selecting by CSS/ID
+            </b> <br>
+            $("#page") = select any with id of 'page'<br>
+            $(".hot") = select any with class of 'hot'<br>
+            $("li.cool") = select only li with class of 'cool'<br>
+            $("li.cool a") = select only < a> that are inside < li> with class of 'cool’<br>
+        </li><br>
+
+        <li><b>Loading JS when page is ready</b><br>
+            Use $(document).ready()
+        </li><br>
+
+        <li><b>Update elements:</b><br>
+            .html()<br>
+            .replaceWith()<br>
+            .text()<br>
+            .remove(): to remove the element<br>
+            from the DOM<br>
+        </li><br>
+
+        <li><b>Get & Set attributes</b><br>
+            .attr()<br> This method can get or set a specified
+            attribute and its value. To get the value of an
+            attribute, you specify the name of the attribute
+            in the parentheses.<br><br>
+
+            .removeAttr() <br>This method removes a specified
+            attribute (and its value). You just specify
+            the name of the attribute that you want
+            to remove from the element in the
+            parentheses<br><br>
+
+            .addClass()<br> This method adds a new value
+            to the existing value of the class
+            attribute. It does not overwrite existing
+            values.<br><br>
+            .removeClass() <br>This method removes a value from the class
+            attribute, leaving any other class names within
+            that attribute intact.<br><br>
+        </li><br>
+
+        <li><b>Live NodeList: </b><br>
+            getElementById()<br><br>
+            getElementsByClassName()<br><br>
+            getElementsByTagName<br><br>
+
+        </li><br>
+
+        <li><b>Static NodeList: </b><br>
+            querySelector()<br><br>
+            querySelectorAll()<br><br>
+        </li><br>
+
+        <li><b>Effects:</b><br><br>
+            <b>Basic Effects:</b><br><br>
+            show() Displays selected elements<br><br>
+            .hide() Hides selected elements<br><br>
+            .toggle() Toggles between showing and hiding selected elements<br><br>
+        </li><br>
+
+        <li><b>Fading effects:</b><br><br>
+           
+            .fadeIn() Fades in selected elements making them opaque<br><br>
+            .fadeOut() Fades out selected elements making them transparent<br><br>
+            .fadeTo() Changes opacity of selected element<br><br>
+            .fadeToggle() Hides or shows selected elements by changing their opacity (opposite of current state)<br><br>
+
+        </li><br>
+
+        <li><b>Sliding effects:</b><br><br>
+            .slideUp() Hides selected elements with a sliding motion<br><br>
+            .slideDown() Shows selected elements with a sliding motion<br><br>
+            .slideToggle() Hides or show selected elements with a sliding motion (opposite direction of current state)<br><br>
+            
+        </li><br>
+
+        <li><b>Custom effects:</b><br><br>
+            .delay() Delays execution of subsequent items in queue<br><br>
+            .stop() Stops an animation if it is currently running<br><br>
+            .animate() Creates custom animation<br><br>
+            
+        </li><br>
 
 
+        <li><b>AJAX</b><br><br><b>Basic Ajax Request:</b><br><br>
+            var XHR = new XMLHttpRequest();<br>
+            XHR.onreadystatechange = function(){<br>
+            if(XHR.readyState == 4 && XHR.status == 200){<br>
+            console.log(XHR.responseText);<br>
+            }<br>
+            };<br>
+            XHR.open("GET", "https://api.github.com/zen");<br>
+            XHR.send();
+            <br>
+
+        </li><br>
 
 
+        <li><b>API:</b><br><br>
+            Take a request<br><br>
+            Deliver it<br><br>
+            Bring back a response<br><br>
+        </li><br>
 
+        <li><b>FETCH</b><br><br>
+            fetch(url)<br>
+            .then(function(res){<br>
+            console.log(res);<br>
+            })<br>
+            .catch(function(error<br>
+            ){<br>
+            console.log(error);<br>
+            })<br>
 
+        </li><br>
+    </ol>
 
+    <h1>Week 9</h1>
+    <h2>Bootstrap</h2>
+    <p>Bootstrap uses:</p>
+    <ol><li>Flexbox grid for it’s layout</li><br>
+    <li>rem for measurements</li><br>
+    <li>Has device breakpoints to accommodate for different media sizes
+    </li><br></ol>
 
+    <p>To use bootstrap, simply include the link at the top of the html page.</p>
+    
 
+    <h1>Week 12</h1>
 
+    <h2>Using jQuery & LocalStorage</h2>
 
+    <ol>
+        <li>Always have document ready when using jQuery</li><br>
+        <li>Simply create a variable with value</li><br>
+        <li>Set it to localStorage <br> localStorage.setItem("<key>","<value>")</li><br>
+        <li>Get it back using getItem("<key>")</li><br>
+        <li>Display into HTML</li><br>
 
+        <h2>What is an API?</h2>
+        <p>An API is a group of logic that takes a specific input and
+            gives you a specific output.
+        </p><br>
 
+        <li><b>NoSQL</b><br><br>
+            Best fit for unstructured data<br><br>
+            Works better for large datasets<br><br>
+            High write loads<br><br>
+            High availability in unstable environment<br><br>
+            Data is location based<br><br>
 
+        </li><br>
 
+        <li><b>RESTDB.io</b><br><br>
+            I have learnt how to use restDB API to help to create our own online storage. <br><br>
+            I learnt how to sign up an account, create a new database, how to add a collection, how to add a new field, and how to implement the api key and the url in our codes from restDB. <br><br>
+            I also leant:<br><br>
+            - GET: Get resource from the server.<br><br>
+            - POST: Create resource to the server.<br><br>
+            - PATCH or PUT: Update existing resource on the server.<br><br>
+            - DELETE: Delete existing resource from the server.<br><br>
 
+        </li><br>
+    </ol>
 
+    <h1>Week 14</h1>
+    <h2>LOTTIE</h2>
+    <p>Lottie is a great way to perform animations and allow additional interactivity on your site or
+       mobile platforms.<br><br><br>
+    I have learnt how to use lottie animations to enhance the overall aesthetic of my website in my codes. <br><br><br>
+    I have inserted a lottie animation which I have learnt and applied from this week at the bottom of the blog. 
+    </p>
 
-
-
-
-
-
+    <script
+    src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"
+    defer
+  ></script>
+  <lottie-player style = " height:400px;
+  width: 400px"
+    src="https://assets10.lottiefiles.com/packages/lf20_s9otqwu1.json"
+    background="transparent"
+    speed="1"
+    class="backimg"
+    style="opacity: 100%"
+    loop
+    autoplay
+    style="position: fixed; top: 0; z-index: -1"
+  ></lottie-player>
 
 </body>
 </html>

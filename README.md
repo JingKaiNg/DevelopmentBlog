@@ -1,1 +1,1 @@
-This is my development blog on what I have learnt each week.
+This is my development blog on what I have learnt each week in ID. 

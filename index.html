@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Development Blog</title>
+</head>
+<body>
+    <h1>ID Development Blog</h1>
+    <h1>Week 1:</h1>
+    <ol>
+    <li> Introduction to HTML and CSS</li>
+    <br>
+    <li> Introduction to Visual Studio Code and repl.it</li>
+    <br>
+    <li> Learnt what makes a good website</li>
+    <br>
+    <li> HTML: Defines the content (main codes) <br>CSS: Assigns the styles (make the website looks better)</li>
+    <br>
+    <li> HTML has a structure and we name the file as index.html </li>
+    <br>
+    <li> HTML has tags which includes:
+        <br> p: paragraph element
+        <br> h1: Main heading (First most important heading)
+        <br> h2: Second main heading (Second most important heading
+        <br> h3: Third most important heading 
+        
+        <br>.
+        <br>.
+        <br>.
+        <br>.
+        <br> b: Bold
+        <br> li: List element (for point forms)
+        <br> tr: Table element
+        <br> ul: Unordered list (point form)
+        <br> o: Ordered list (number form) </li>
+
+        <br> To display an image, we use: < img src=" " > <br>
+        <br> Under the < img > tag, there is 2 attributes: <ol>
+            <li>src: Internal locations on a document</li>
+            <li>alt: image description in case image not loading </li>
+
+            <br> < a> < /a> stands for anchor: To anchor or hyperlink an element 
+            <br> For example: < a href="https://interactivedev.com" title="JumpStart to 
+            Interactive Development">Interactive Development</a><br>
+            <br> < div> </ div>: a container unit which divides the HTML documents into sections<br>
+            <br> < span> </ span>: an inline unit usually used for small chunks of HTML.
+            
+        </ol>
+ 
+        <br><li> Iframe tag ( < iframe> < /iframe> ) [usually for media]
+    <br> The HTML < iframe> tag specifies an inline frame.
+    <br> An inline frame is used to embed another document within the current 
+    HTML document.
+    <br> < iframe src="" width="" height="">< /iframe>
+    <br>
+    <br>Note:
+    <br>
+    <br> Iframes are commonly used to embed rich media 
+    resources. Most commonly Youtube videos.
+    </li>
+    </ol>
+
+    <h1>Week 2</h1>
+    <ol>
+        <li> < header>: eg. H1, h2, h3, h4</li><br>
+        <li>< article>: contains 1 or more heading tags ( headers are usally used inside article)
+            This tag is commonly used for news content or blog post. </li><br>
+        <li>< nav>: The location of the munu links most of the time. </li><br>
+        
+        <h3>CSS</h3>
+
+        <li> Responsible for the colour, size, position, etc. </li><br>
+        <li> Rule of CSS: 
+            <br>selector{property:value;}  
+            <br>eg. P{
+            <br>color:yellow;
+            <br>}
+            </li><br>
+        <li> Inline CSS, we use the tag < style> < /style> or we can do it in a < p> by writing < p style="text-align: left;">Just a sentence< /p></li><br>
+        <li> TO LINK THE CSS TO HTML FILE, we need to link them together. <br>This can be done by saying:
+            <br>< link rel="stylesheet" href="basic.css" type="text/css"> in the < head> tag in the html file.</li><br>
+        
+        <h3>ID ATTRIBUTES</h3>
+
+        <li> #(ID Name) for example: #myElement
+            <br>To call it in the html file, say: 
+            <br>< body>
+            <br>< p id="myElement">
+            <br> A paragraph < em> with emphasis< /em>
+            <br>< /p>
+            <br>< /body>
+            </li><br>
+
+        <h3>CLASS ATTRIBUTE</h3>
+
+        <li> .myClass 
+            <br> DIFF BETWEEN ID (#) AND CLASS(.)
+            <br>An element can have only 1 id but multiple classes. ID is unique to that element. 
+        </li><br>
+        <li> Fonts in CSS can be retrieved via google fonts or by the built-in fonts.</li>
+    </ol>
+
+    <h1>Week 3</h1>
+    <h3>HTML Forms</h3>
+    <ol>
+        <li>< form>< /form> tag</li>
+        <li>< input>< /input> tag</li>
+        <li>< label>< /label> tag</li>
+        <li>Validation of the forms can be done by adding the word “required”</li>
+        <li>< section>< /section> tag</li>
+        <h3>Grouping selectors in CSS</h3>
+
+        <li>For example: 
+        <br> "h1 {...}"
+        <br> applies to all h1 elements
+        <br>
+        <br>
+        <br> ".class{...}"
+        <br> applies to any element with this class
+        <br>
+        <br>
+        <br> "h1, h2{...} "
+        <br> applies to both h1 and h2 elements (grouping) 
+        <br>
+        <br>
+        <br> "h1, h2, .class, #id{...}"
+        <br> applies to all of these elements 
+        </li><br>
+
+        <li>Specificity in CSS: <br><ol>
+           <br> <li>Universal</li><br><li>type (p)</li><br><li>class (.example>)</li><br><li>id (#example)</li><br></ol></li>
+        
+        <li>I have also learnt more CSS styles such as using background pictures, border, etc.</li>
+        
+        <h3>CSS BOX MODEL</h3>
+        <ol>
+            <li>Content: text, images, etc</li><br>
+            <li>Padding: transparent area around the content, inside of box </li><br>
+            <li>Border: goes around the padding & content</li><br>
+            <li>Margin: space between boxes</li><br>
+            
+        </ol>
+
+        <h3>CSS MEDIA QUERIES</h3>
+        <ol>
+            <li>@media <br>
+                Applies one or more CSS properties based on the result of a media query.
+            </li><br>
+
+            <li>Min-width <br>
+                If the minimum width of the viewport is at least the specific width or wider, then the media query is true.
+            </li><br>
+
+            <li>Max-width <br>
+            If the maximum width of the viewport is at no more than the specified width, or it’s narrower, then the media query is true.
+            </li><br>
+
+            <ul> Example 1:</ul><br>
+            <ul>When the browser viewport is at least 576px,<br>
+                "@media screen and (min-width: 576px){}" <br>
+            </ul>
+
+            <h3>MORE EXAMPLES which I have learnt</h3>
+
+            <ul>Example 2:</ul><br>
+            <ul>Medium devices (tablets, 768px and up),<br>
+                "@media (min-width: 768px){}" <br>
+            </ul>
+
+            <ul>Example 3:</ul><br>
+            <ul>Large devices (desktops, 992px and up)<br>
+                "@media (min-width: 992px){}" <br>
+            </ul>
+
+            <ul>Example 4:</ul><br>
+            <ul>Extra large devices (large desktops, 1200px and up)<br>
+                "@media (min-width: 1200px){}" <br>
+            </ul><br>
+
+            <li>Positioning in CSS <br><b>Relative:</b><br>For tweaking the position of an element without affecting its 
+                surrounding boxes<br><br><b>Absolute:</b>Take elements out of the static flow of the page and place 
+                relative to the browser window<br><br><b>Relative Absolute:</b>Allows us hook back into the static flow of the page<br><br><b>Fixed</b><br>Make elements don't scroll with the rest of the page (sticky)<br>
+            </li><br>
+
+            <li><b>Z-index:</b> Allows user to control the depth of elements on the page.<br>-ve z-index go farther into the page. <br> +ve z-index comes out of the page </li>
+        </ol>
+
+        <h3>FLEX-BOX</h3>
+        <ol>
+            <li>The flexbox container is the parent of the flex item.</li><br>
+            <li>The children of the flexbox container can be laid out in horizontal or vertical. It flexes their size when the content grows or shrink accordingly. </li><br>
+            <li>Can adapt layout to follow suit content</li><br>
+        </ol>
+
+        <h3>WIREFRAME</h3>
+        <ol>
+            <li>Its something like a prototype/ blueprint of your website</li><br>
+            <li>Usually done before the creation of the website</li><br>
+            <li>Shows important functionality of the website.</li><br>
+            <li>NOT Photography and Visual Design</li><br>
+        </ol>
+
+    </ol>
+
+    <h1>Week 4</h1>
+
+    <h3>RESPONSIVE IMAGES</h3>
+    <ol><li>By setting a relative unit, we make our images fluid and they will resize accordingly. <br><br> For example, to auto fit images to a box: <br> <br>
+            ".responsive-img-cover{" <br>
+            "background-image: url(...);" <br>
+            "background-size: cover;" <br>
+            "}" <br>
+        </li></ol>
+    <h3>GITHUB</h3>
+    <p>I learnt how to use GitHub this week, how to create an account, creating of a repository, how to collaborate with others via GitHub, how to push/pull and also see the advantages of GitHub. </p>
+
+   <!-- <h1>Week 5</h1> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
